@@ -16,7 +16,7 @@ struct ContentView: View {
             if isOnboardingViewActive {
                 OnboardingView ()
             } else {
-                HomeView ()
+                HomeView()
             }
         }
     }
